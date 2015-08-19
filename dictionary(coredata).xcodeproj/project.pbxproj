@@ -15,6 +15,8 @@
 		A2B334791B838660000AEA25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B334781B838660000AEA25 /* Images.xcassets */; };
 		A2B3347C1B838660000AEA25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B3347A1B838660000AEA25 /* LaunchScreen.xib */; };
 		A2B334881B838660000AEA25 /* dictionary_coredata_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B334871B838660000AEA25 /* dictionary_coredata_Tests.m */; };
+		A2B334921B838923000AEA25 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B334911B838923000AEA25 /* CoreData.framework */; };
+		A2B334941B83894C000AEA25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B334931B83894C000AEA25 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		A2B334811B838660000AEA25 /* dictionary(coredata)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dictionary(coredata)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B334861B838660000AEA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2B334871B838660000AEA25 /* dictionary_coredata_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dictionary_coredata_Tests.m; sourceTree = "<group>"; };
+		A2B334911B838923000AEA25 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A2B334931B83894C000AEA25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B334941B83894C000AEA25 /* CoreGraphics.framework in Frameworks */,
+				A2B334921B838923000AEA25 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +74,8 @@
 				A2B334671B838660000AEA25 /* dictionary(coredata) */,
 				A2B334841B838660000AEA25 /* dictionary(coredata)Tests */,
 				A2B334661B838660000AEA25 /* Products */,
+				A2B334931B83894C000AEA25 /* CoreGraphics.framework */,
+				A2B334911B838923000AEA25 /* CoreData.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -416,6 +424,7 @@
 				A2B3348D1B838660000AEA25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B3348E1B838660000AEA25 /* Build configuration list for PBXNativeTarget "dictionary(coredata)Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				A2B334901B838660000AEA25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -11,5 +11,8 @@
 @interface ViewController : UIViewController
 
 
+@property (nonatomic,strong)NSMutableArray *dic;
+
+
 @end
 
